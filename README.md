@@ -4,7 +4,7 @@ A MERN-stack based web application that helps users — especially girls and wom
 
 ## 🚀 Features
 
-- 🗺️ Interactive Map with OpenStreetMap + MapLibre
+- 🗺️ Interactive Map with OpenStreetMap + Leaflet 
 - 📍 Vote-based area safety markers (Safe / Unsafe)
 - 📊 Safety rating heatmap per route
 - 🔎 Location search using Nominatim API
