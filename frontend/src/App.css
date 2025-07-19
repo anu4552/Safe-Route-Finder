@@ -1,0 +1,109 @@
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.info-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 999;
+  max-width: 250px;
+}
+
+
+
+
+
+
+/* Ensure full height for layout
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Top bar controls */
+/* .controls {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+
+input {
+  padding: 8px;
+  width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Full map height minus control height */
+/* .leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  pointer-events: auto !important;
+} */ 
+
+
+
+
+
+
+
+/* html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background: #282c34;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.map-container {
+  height: calc(100vh - 50px);
+  width: 100%;
+} */
+
